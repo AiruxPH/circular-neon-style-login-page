@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN - Circular Neon Styled Login Form</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="root">
+        <div class="bg-objects">
+            <div class="obj obj-1"></div>
+            <div class="obj obj-2"></div>
+            <div class="obj obj-3"></div>
+            <div class="obj obj-4"></div>
+        </div>
+        <div class="signature-container">
+            <svg viewBox="0 0 500 500">
+                <path id="signaturePath" d="M 50, 250 a 200, 200 0 1, 1 400, 0 a 200, 200 0 1, 1 -400, 0"
+                    fill="transparent" />
+                <text>
+                    <textPath href="#signaturePath" startOffset="25%">
+                        Made by Anecito Randy E. Calunod Jr.
+                    </textPath>
+                </text>
+            </svg>
+        </div>
+        <div class="login-form-container">
+            <form class="login-form" action="#">
+                <h2 class="login-form-title">
+                    LOGIN
+                </h2>
+                <div class="form-group">
+                    <input type="text" id="username" name="username" placeholder=" " required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="form-group password-group">
+                    <div class="field-wrapper">
+                        <input type="password" id="password" name="password" placeholder=" " required>
+                        <label for="password">Password</label>
+                        <i class="fas fa-eye toggle-password"></i>
+                    </div>
+
+                </div>
+                <div class="field-footer">
+                    <a href="#" class="text-link">Forgot Password?</a>
+                </div>
+
+                <div class="signup-container">
+                    <p class="signup-text">Don't have an account? <a href="#" class="signup-link">Sign Up</a></p>
+                </div>
+
+                <div class="orbit-wrapper">
+                    <button class="round-button login-button">
+                        <div class="round-button-circle">
+                            <span class="round-button">Login</span>
+                        </div>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
