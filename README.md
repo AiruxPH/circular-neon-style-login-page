@@ -2,7 +2,7 @@
 
 A high-fidelity, futuristic circular login form built with **Vanilla HTML, CSS, and JavaScript**. Featuring orbital animations, glowing neon aesthetics, and a unique Cyberpunk atmosphere.
 
-![Cyberpunk Login Preview](favicon.png) <!-- Note: User can replace this with a real screenshot later -->
+![Cyberpunk Login Preview](sample_screenshot.jpeg)
 
 ## ✨ Features
 
@@ -45,3 +45,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## ✍️ Credits
 
 Made with 💚 by **Anecito Randy E. Calunod Jr.**
+
