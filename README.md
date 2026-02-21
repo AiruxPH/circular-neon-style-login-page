@@ -2,7 +2,7 @@
 
 A high-fidelity, futuristic circular login form built with **Vanilla HTML, CSS, and JavaScript**. Featuring orbital animations, glowing neon aesthetics, and a unique Cyberpunk atmosphere.
 
-![Cyberpunk Login Preview](sample_screenshot.jpeg)
+![Cyberpunk Login Preview](sample-screenshot.jpeg)
 
 ## ✨ Features
 
@@ -25,7 +25,7 @@ A high-fidelity, futuristic circular login form built with **Vanilla HTML, CSS, 
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/cyberpunk-login.git
+    git clone https://github.com/AiruxPH/circular-neon-style-login-page.git
     ```
 2.  **Open `index.html`**:
     Simply open the file in any modern web browser to see the animation in action.
@@ -45,4 +45,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## ✍️ Credits
 
 Made with 💚 by **Anecito Randy E. Calunod Jr.**
+
 
